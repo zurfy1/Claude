@@ -312,6 +312,11 @@ const S9 = ({ t, f }: Ctx) => {
   </>);
 };
 
+// light stand-in for crowds of tanks (few meshes, keeps CPU render under the frame timeout)
+const MiniT34: React.FC<{ p: V3; rotY?: number; s?: number }> = ({ p, rotY = 0, s = 1 }) => (<group position={p} rotation={[0, rotY, 0]} scale={s}>
+  <Box p={[0, 0.5, 0]} s={[5.3, 0.9, 2.9]} color="#2f3a26" line={2} /><Box p={[0, 1.2, 0]} s={[5.0, 0.6, 2.1]} color="#4f7a3a" line={2} /><Box p={[-0.3, 1.85, 0]} s={[1.9, 0.75, 1.7]} color="#4f7a3a" line={2} /><Box p={[1.8, 1.88, 0]} s={[2.2, 0.15, 0.15]} color="#4f7a3a" line={1} /><Box p={[-0.3, 2.24, 0]} s={[1.6, 0.04, 1.4]} color="#f4f8ff" line={1} />
+</group>);
+
 /* =================== S10 48.15 – 53.85  1,300 Tigers vs 50,000 T-34s =================== */
 const K10: Key[] = [{ t: 48.0, pos: [-7.5, 8, 13], look: [-6.5, -0.5, -6], fov: 54 }, { t: 50.4, pos: [-5.0, 9, 14], look: [-4.0, -0.5, -8], fov: 56 }, { t: 51.8, pos: [2.6, 10, 13], look: [3.0, -1.0, -12], fov: 56 }, { t: 54.0, pos: [3.0, 10.5, 14], look: [3.2, -1.0, -13], fov: 58 }];
 const S10 = ({ t, f }: Ctx) => {
@@ -324,7 +329,7 @@ const S10 = ({ t, f }: Ctx) => {
     {[0, 1, 2].map((i) => <Tiger key={i} p={[-8.4 + i * 1.6, 0, -1.5 + i * 1.6]} rotY={0.6} color="#c9c4b4" s={0.42} snow />)}
     <Counter p={[-7.2, 4.0, 0]} s={[4.4, 1.9]} text={small.toLocaleString("en-US")} sub="TIGERS" color="#5d666e" />
     {Array.from({ length: 8 * 6 }, (_, i) => { const r = Math.floor(i / 8), c = i % 8, appear = seg(t, 51.4 + (r + c) * 0.08, 51.7 + (r + c) * 0.08, Easing.out(Easing.back(2)));
-      return appear > 0.01 ? <T34 key={i} p={[-1.8 + c * 2.0, 0, -9 + r * 2.0]} rotY={0.6} s={0.42 * appear} num="" snow /> : null; })}
+      return appear > 0.01 ? <MiniT34 key={i} p={[-1.8 + c * 2.0, 0, -9 + r * 2.0]} rotY={0.6} s={0.42 * appear} /> : null; })}
     <Counter p={[5.2, 5.2, -4]} s={[5.6, 2.2]} text={big.toLocaleString("en-US")} sub="T-34s" color="#c8302f" />
     <Person p={[-4.4, 0, 2.8]} h={2.8} look={hans} f={f} pose={{ mood: t < 51.4 ? "smile" : "shock", arms: t > 51.6 ? "head" : "chest", armK: 1, lookX: 1, sweat: t > 51.6 ? 1 : 0 }} />
     <Weather t={t} kind="snow" c={[0, 0, 0]} area={[24, 10, 16]} n={60} />
