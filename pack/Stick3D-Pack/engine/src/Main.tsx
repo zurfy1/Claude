@@ -35,7 +35,8 @@ const Inner: React.FC<{ from: number; first?: boolean; trans: string; bg: string
 type G = { text: string; a: number };
 const groups: G[] = (() => {
   const g: G[] = []; let cur: number[] = [];
-  const flush = () => { if (cur.length) { g.push({ text: cur.map((i) => String(SCRIPT[i]).replace(/[.,!?;:]$/, "")).join(" "), a: words[cur[0]].start }); cur = []; } };
+  // tokens may be blanked in script.json to merge spoken words into one caption (e.g. "two thousand seven" -> "2007"); empty groups are skipped
+  const flush = () => { if (cur.length) { const text = cur.map((i) => String(SCRIPT[i]).replace(/[.,!?;:]$/, "")).filter(Boolean).join(" "); if (text) g.push({ text, a: words[cur[0]].start }); cur = []; } };
   words.forEach((_, i) => { cur.push(i); if (cur.length === 2 || /[.,!?;:]$/.test(String(SCRIPT[i]))) flush(); });
   flush(); return g;
 })();

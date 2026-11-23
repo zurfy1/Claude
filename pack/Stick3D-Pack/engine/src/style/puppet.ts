@@ -2,7 +2,7 @@
 export type Look = {
   skin: string; body: string; outfit?: "suit" | "leather" | "blazer" | "hoodie" | "shirt"; tie?: string; shirt?: string;
   hair?: "none" | "short" | "bob" | "swept" | "grey"; hairColor?: string; glasses?: boolean; badge?: string; hat?: string; shoe?: string;
-  cap?: "peaked" | "ushanka"; capColor?: string; mustache?: string; monocle?: boolean;
+  cap?: "peaked" | "ushanka" | "spartan" | "laurel" | "hardhat"; beard?: string; capColor?: string; mustache?: string; monocle?: boolean;
 };
 export type Arms = "down" | "up" | "hold" | "point" | "head" | "chest" | "box" | "shrug";
 export type Pose = {
@@ -140,7 +140,16 @@ export function drawPuppet(c: CanvasRenderingContext2D, W: number, H: number, lo
   // v6 accessories: mustache, monocle, officer peaked cap, ushanka with goggles
   if (look.mustache) { c.fillStyle = look.mustache; c.lineWidth = 5 * S; c.beginPath(); const mY = hy + hr * 0.36; c.moveTo(hx, mY - 6 * S); c.quadraticCurveTo(hx - 30 * S, mY - 16 * S, hx - 58 * S, mY + 6 * S); c.quadraticCurveTo(hx - 30 * S, mY + 8 * S, hx, mY + 4 * S); c.quadraticCurveTo(hx + 30 * S, mY + 8 * S, hx + 58 * S, mY + 6 * S); c.quadraticCurveTo(hx + 30 * S, mY - 16 * S, hx, mY - 6 * S); c.fill(); c.stroke(); }
   if (look.monocle) { c.lineWidth = 6 * S; c.strokeStyle = "#c9a227"; c.fillStyle = "rgba(200,235,255,.3)"; c.beginPath(); c.arc(ex1, eyeY, 27 * S, 0, 7); c.fill(); c.stroke(); c.lineWidth = 3 * S; c.beginPath(); c.moveTo(ex1 + 20 * S, eyeY + 20 * S); c.quadraticCurveTo(ex1 + 40 * S, eyeY + 80 * S, ex1 + 10 * S, eyeY + 130 * S); c.stroke(); c.strokeStyle = INK; }
+  if (look.beard) { c.fillStyle = look.beard; c.lineWidth = 6 * S; c.beginPath(); c.moveTo(hx - hr * 0.78, hy + hr * 0.15); c.quadraticCurveTo(hx - hr * 0.7, hy + hr * 1.25, hx, hy + hr * 1.35); c.quadraticCurveTo(hx + hr * 0.7, hy + hr * 1.25, hx + hr * 0.78, hy + hr * 0.15); c.quadraticCurveTo(hx + hr * 0.4, hy + hr * 0.75, hx, hy + hr * 0.72); c.quadraticCurveTo(hx - hr * 0.4, hy + hr * 0.75, hx - hr * 0.78, hy + hr * 0.15); c.fill(); c.stroke(); c.fillStyle = "#3a1020"; c.beginPath(); c.ellipse(hx, hy + hr * 0.55, 16 * S, 7 * S, 0, 0, 7); c.fill(); }
   const cc = look.capColor ?? "#55606a";
+  if (look.cap === "spartan") { c.lineWidth = 7 * S;
+    c.fillStyle = "#d63a2a"; c.beginPath(); c.moveTo(hx - hr * 1.15, hy - hr * 0.75); c.quadraticCurveTo(hx - hr * 0.6, hy - hr * 1.85, hx + hr * 0.2, hy - hr * 1.75); c.quadraticCurveTo(hx + hr * 1.0, hy - hr * 1.6, hx + hr * 1.2, hy - hr * 0.9); c.quadraticCurveTo(hx, hy - hr * 1.25, hx - hr * 1.15, hy - hr * 0.75); c.fill(); c.stroke();
+    c.strokeStyle = "rgba(120,10,10,.6)"; c.lineWidth = 3 * S; for (let k = -4; k <= 4; k++) { c.beginPath(); c.moveTo(hx + k * hr * 0.2, hy - hr * 1.2); c.lineTo(hx + k * hr * 0.24, hy - hr * 1.62); c.stroke(); } c.strokeStyle = INK; c.lineWidth = 7 * S;
+    c.fillStyle = cc === "#55606a" ? "#d9a441" : cc; c.beginPath(); c.arc(hx, hy - hr * 0.05, hr * 1.02, Math.PI * 1.02, Math.PI * 1.98); c.lineTo(hx + hr * 1.0, hy + hr * 0.45); c.lineTo(hx + hr * 0.62, hy + hr * 0.5); c.lineTo(hx + hr * 0.6, hy - hr * 0.3); c.lineTo(hx - hr * 0.6, hy - hr * 0.3); c.lineTo(hx - hr * 0.62, hy + hr * 0.5); c.lineTo(hx - hr * 1.0, hy + hr * 0.45); c.closePath(); c.fill(); c.stroke();
+    c.fillStyle = "rgba(255,240,180,.5)"; c.beginPath(); c.ellipse(hx - hr * 0.45, hy - hr * 0.7, hr * 0.25, hr * 0.1, -0.4, 0, 7); c.fill(); }
+  if (look.cap === "laurel") { c.fillStyle = "#3f9a3a"; c.lineWidth = 3 * S; for (let k = 0; k < 9; k++) { const a = Math.PI * (1.08 + k * 0.105); for (const sd of [-1, 1]) { const x = hx + Math.cos(a) * hr * 0.98, y = hy - hr * 0.1 + Math.sin(a) * hr * 0.98; c.beginPath(); c.ellipse(x + sd * 6 * S, y - 6 * S, 16 * S, 7 * S, a + sd * 0.6, 0, 7); c.fill(); c.stroke(); } } }
+  if (look.cap === "hardhat") { c.lineWidth = 7 * S; c.fillStyle = cc === "#55606a" ? "#ffc928" : cc; c.beginPath(); c.arc(hx, hy - hr * 0.42, hr * 0.92, Math.PI, 0); c.closePath(); c.fill(); c.stroke(); c.beginPath(); c.ellipse(hx, hy - hr * 0.42, hr * 1.15, hr * 0.14, 0, 0, 7); c.fill(); c.stroke();
+    c.fillStyle = "#3a3f46"; c.beginPath(); c.rect(hx - 16 * S, hy - hr * 1.05, 32 * S, 26 * S); c.fill(); c.stroke(); c.fillStyle = "#fff6b0"; c.beginPath(); c.arc(hx, hy - hr * 1.05 + 13 * S, 9 * S, 0, 7); c.fill(); }
   if (look.cap === "peaked") { c.lineWidth = 7 * S;
     c.fillStyle = cc; c.beginPath(); c.moveTo(hx - hr * 0.86, hy - hr * 0.62); c.quadraticCurveTo(hx - hr * 1.05, hy - hr * 1.32, hx - hr * 0.2, hy - hr * 1.42); c.quadraticCurveTo(hx + hr * 0.9, hy - hr * 1.5, hx + hr * 1.12, hy - hr * 1.08); c.lineTo(hx + hr * 0.86, hy - hr * 0.62); c.closePath(); c.fill(); c.stroke();
     c.fillStyle = "#2a2f35"; c.beginPath(); c.rect(hx - hr * 0.88, hy - hr * 0.78, hr * 1.76, hr * 0.2); c.fill(); c.stroke();
