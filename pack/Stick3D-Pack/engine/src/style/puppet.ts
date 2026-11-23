@@ -2,6 +2,7 @@
 export type Look = {
   skin: string; body: string; outfit?: "suit" | "leather" | "blazer" | "hoodie" | "shirt"; tie?: string; shirt?: string;
   hair?: "none" | "short" | "bob" | "swept" | "grey"; hairColor?: string; glasses?: boolean; badge?: string; hat?: string; shoe?: string;
+  cap?: "peaked" | "ushanka"; capColor?: string; mustache?: string; monocle?: boolean;
 };
 export type Arms = "down" | "up" | "hold" | "point" | "head" | "chest" | "box" | "shrug";
 export type Pose = {
@@ -136,5 +137,21 @@ export function drawPuppet(c: CanvasRenderingContext2D, W: number, H: number, lo
     if (sw > 0.6) for (let k = 0; k < 2; k++) { const u = ((p.t * 0.06 + k * 0.5) % 1), dir = k ? -1 : 1, x = hx + dir * (hr + u * 70 * S), y = hy - hr * 0.5 - Math.sin(u * Math.PI) * 40 * S + u * u * 60 * S; c.globalAlpha = 1 - u; c.beginPath(); c.arc(x, y, 6 * S, 0, 7); c.fill(); c.globalAlpha = 1; }
   }
   if (look.hat) { c.fillStyle = look.hat; c.lineWidth = 8 * S; c.beginPath(); c.ellipse(hx, hy - hr * 0.8, hr * 0.95, hr * 0.28, 0, Math.PI, 0); c.fill(); c.stroke(); }
+  // v6 accessories: mustache, monocle, officer peaked cap, ushanka with goggles
+  if (look.mustache) { c.fillStyle = look.mustache; c.lineWidth = 5 * S; c.beginPath(); const mY = hy + hr * 0.36; c.moveTo(hx, mY - 6 * S); c.quadraticCurveTo(hx - 30 * S, mY - 16 * S, hx - 58 * S, mY + 6 * S); c.quadraticCurveTo(hx - 30 * S, mY + 8 * S, hx, mY + 4 * S); c.quadraticCurveTo(hx + 30 * S, mY + 8 * S, hx + 58 * S, mY + 6 * S); c.quadraticCurveTo(hx + 30 * S, mY - 16 * S, hx, mY - 6 * S); c.fill(); c.stroke(); }
+  if (look.monocle) { c.lineWidth = 6 * S; c.strokeStyle = "#c9a227"; c.fillStyle = "rgba(200,235,255,.3)"; c.beginPath(); c.arc(ex1, eyeY, 27 * S, 0, 7); c.fill(); c.stroke(); c.lineWidth = 3 * S; c.beginPath(); c.moveTo(ex1 + 20 * S, eyeY + 20 * S); c.quadraticCurveTo(ex1 + 40 * S, eyeY + 80 * S, ex1 + 10 * S, eyeY + 130 * S); c.stroke(); c.strokeStyle = INK; }
+  const cc = look.capColor ?? "#55606a";
+  if (look.cap === "peaked") { c.lineWidth = 7 * S;
+    c.fillStyle = cc; c.beginPath(); c.moveTo(hx - hr * 0.86, hy - hr * 0.62); c.quadraticCurveTo(hx - hr * 1.05, hy - hr * 1.32, hx - hr * 0.2, hy - hr * 1.42); c.quadraticCurveTo(hx + hr * 0.9, hy - hr * 1.5, hx + hr * 1.12, hy - hr * 1.08); c.lineTo(hx + hr * 0.86, hy - hr * 0.62); c.closePath(); c.fill(); c.stroke();
+    c.fillStyle = "#2a2f35"; c.beginPath(); c.rect(hx - hr * 0.88, hy - hr * 0.78, hr * 1.76, hr * 0.2); c.fill(); c.stroke();
+    c.fillStyle = INK; c.beginPath(); c.moveTo(hx - hr * 0.9, hy - hr * 0.6); c.quadraticCurveTo(hx, hy - hr * 0.42, hx + hr * 0.95, hy - hr * 0.6); c.lineTo(hx + hr * 0.9, hy - hr * 0.68); c.lineTo(hx - hr * 0.9, hy - hr * 0.68); c.fill();
+    c.fillStyle = "#e6e6ea"; c.beginPath(); c.arc(hx, hy - hr * 0.98, 11 * S, 0, 7); c.fill(); c.stroke(); c.fillStyle = "#c9c9d2"; c.beginPath(); c.moveTo(hx - 34 * S, hy - hr * 1.18); c.lineTo(hx, hy - hr * 1.1); c.lineTo(hx + 34 * S, hy - hr * 1.18); c.lineTo(hx, hy - hr * 1.24); c.closePath(); c.fill(); c.stroke(); }
+  if (look.cap === "ushanka") { c.lineWidth = 7 * S; c.fillStyle = look.capColor ?? "#6b4a2a";
+    for (const sd of [-1, 1]) { c.beginPath(); c.ellipse(hx + sd * hr * 0.92, hy - hr * 0.05, hr * 0.22, hr * 0.45, sd * 0.15, 0, 7); c.fill(); c.stroke(); }
+    c.beginPath(); c.arc(hx, hy - hr * 0.45, hr * 1.0, Math.PI * 1.02, Math.PI * 1.98); c.closePath(); c.fill(); c.stroke();
+    c.fillStyle = "#8a6a42"; c.beginPath(); c.roundRect(hx - hr * 1.02, hy - hr * 0.72, hr * 2.04, hr * 0.32, 14 * S); c.fill(); c.stroke();
+    c.fillStyle = "#e53e3e"; c.beginPath(); for (let k = 0; k < 10; k++) { const a = -Math.PI / 2 + k * Math.PI / 5, r = k % 2 ? 7 * S : 16 * S; c.lineTo(hx + Math.cos(a) * r, hy - hr * 0.56 + Math.sin(a) * r); } c.closePath(); c.fill(); c.lineWidth = 3 * S; c.stroke(); c.lineWidth = 7 * S;
+    for (const sd of [-1, 1]) { c.fillStyle = "#3a3f46"; c.beginPath(); c.arc(hx + sd * hr * 0.4, hy - hr * 0.98, hr * 0.22, 0, 7); c.fill(); c.stroke(); c.fillStyle = "rgba(160,220,255,.85)"; c.beginPath(); c.arc(hx + sd * hr * 0.4, hy - hr * 0.98, hr * 0.13, 0, 7); c.fill(); }
+    c.beginPath(); c.moveTo(hx - hr * 0.18, hy - hr * 0.98); c.lineTo(hx + hr * 0.18, hy - hr * 0.98); c.stroke(); }
   c.restore();
 }

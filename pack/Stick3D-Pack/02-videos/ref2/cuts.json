@@ -1,0 +1,13 @@
+{
+ "threshold": 0.25,
+ "duration": 68.33,
+ "cuts": [],
+ "shot_lengths": [
+  68.33
+ ],
+ "n_shots": 1,
+ "avg": 68.33,
+ "min": 68.33,
+ "max": 68.33,
+ "median": 68.33
+}

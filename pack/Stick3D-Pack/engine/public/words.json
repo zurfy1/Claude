@@ -1,762 +1,1017 @@
 [
  {
-  "word": "The",
+  "word": "Three",
   "start": 0.0,
-  "end": 0.16
+  "end": 0.27
  },
  {
-  "word": "cat",
-  "start": 0.16,
-  "end": 0.47
+  "word": "wrecked",
+  "start": 0.27,
+  "end": 0.52
  },
  {
-  "word": "bolts",
-  "start": 0.47,
-  "end": 0.93
+  "word": "T-34s",
+  "start": 0.52,
+  "end": 1.59
  },
  {
-  "word": "under",
-  "start": 0.93,
-  "end": 1.13
+  "word": "roll",
+  "start": 1.59,
+  "end": 1.92
  },
  {
-  "word": "the",
-  "start": 1.13,
-  "end": 1.21
- },
- {
-  "word": "wheel",
-  "start": 1.21,
-  "end": 1.67
- },
- {
-  "word": "and",
-  "start": 1.67,
-  "end": 1.88
- },
- {
-  "word": "the",
-  "start": 1.88,
-  "end": 1.94
- },
- {
-  "word": "Roman",
-  "start": 1.94,
-  "end": 2.3
- },
- {
-  "word": "feels",
-  "start": 2.3,
-  "end": 2.73
- },
- {
-  "word": "the",
-  "start": 2.73,
-  "end": 2.8
- },
- {
-  "word": "bump",
-  "start": 2.8,
-  "end": 3.24
- },
- {
-  "word": "He",
-  "start": 3.41,
-  "end": 3.48
- },
- {
-  "word": "looks",
-  "start": 3.48,
-  "end": 3.7
- },
- {
-  "word": "back",
-  "start": 3.7,
-  "end": 4.1
- },
- {
-  "word": "The",
-  "start": 4.26,
-  "end": 4.33
- },
- {
-  "word": "cat",
-  "start": 4.33,
-  "end": 4.67
- },
- {
-  "word": "is",
-  "start": 4.67,
-  "end": 4.81
- },
- {
-  "word": "not",
-  "start": 4.81,
-  "end": 5.1
- },
- {
-  "word": "moving",
-  "start": 5.1,
-  "end": 5.58
- },
- {
-  "word": "Down",
-  "start": 5.75,
-  "end": 5.96
- },
- {
-  "word": "the",
-  "start": 5.96,
-  "end": 6.02
- },
- {
-  "word": "street",
-  "start": 6.02,
-  "end": 6.61
- },
- {
-  "word": "people",
-  "start": 6.61,
-  "end": 6.91
- },
- {
-  "word": "freeze",
-  "start": 6.91,
-  "end": 7.59
- },
- {
-  "word": "Nobody",
-  "start": 7.76,
-  "end": 8.14
- },
- {
-  "word": "runs",
-  "start": 8.14,
-  "end": 8.41
- },
- {
-  "word": "at",
-  "start": 8.41,
-  "end": 8.48
- },
- {
-  "word": "him",
-  "start": 8.48,
-  "end": 8.64
- },
- {
-  "word": "yet",
-  "start": 8.64,
-  "end": 8.99
- },
- {
-  "word": "They",
-  "start": 8.99,
-  "end": 9.1
- },
- {
-  "word": "stand",
-  "start": 9.1,
-  "end": 9.4
- },
- {
-  "word": "far",
-  "start": 9.4,
-  "end": 9.85
- },
- {
-  "word": "off",
-  "start": 9.85,
-  "end": 10.07
- },
- {
-  "word": "and",
-  "start": 10.07,
-  "end": 10.16
- },
- {
-  "word": "start",
-  "start": 10.16,
-  "end": 10.46
- },
- {
-  "word": "wailing",
-  "start": 10.46,
-  "end": 11.06
- },
- {
-  "word": "because",
-  "start": 11.06,
-  "end": 11.4
- },
- {
-  "word": "in",
-  "start": 11.4,
-  "end": 11.49
- },
- {
-  "word": "Egypt",
-  "start": 11.49,
-  "end": 12.0
- },
- {
-  "word": "you",
-  "start": 12.0,
-  "end": 12.13
- },
- {
-  "word": "never",
-  "start": 12.13,
-  "end": 12.64
- },
- {
-  "word": "touch",
-  "start": 12.64,
-  "end": 12.92
+  "word": "into",
+  "start": 1.92,
+  "end": 2.12
  },
  {
   "word": "a",
-  "start": 12.92,
-  "end": 12.96
+  "start": 2.12,
+  "end": 2.15
  },
  {
-  "word": "dead",
-  "start": 12.96,
-  "end": 13.2
+  "word": "Soviet",
+  "start": 2.15,
+  "end": 2.64
  },
  {
-  "word": "cat",
-  "start": 13.2,
-  "end": 13.68
+  "word": "yard",
+  "start": 2.64,
+  "end": 3.11
  },
  {
-  "word": "You",
-  "start": 13.68,
-  "end": 13.81
+  "word": "The",
+  "start": 3.2,
+  "end": 3.26
  },
  {
-  "word": "cry",
-  "start": 13.81,
-  "end": 14.17
+  "word": "mechanic",
+  "start": 3.26,
+  "end": 3.77
  },
  {
-  "word": "out",
-  "start": 14.17,
-  "end": 14.38
+  "word": "strips",
+  "start": 3.77,
+  "end": 4.11
  },
  {
-  "word": "that",
-  "start": 14.38,
-  "end": 14.49
+  "word": "them",
+  "start": 4.11,
+  "end": 4.25
  },
  {
-  "word": "you",
-  "start": 14.49,
-  "end": 14.64
+  "word": "apart",
+  "start": 4.25,
+  "end": 4.74
  },
  {
-  "word": "only",
-  "start": 14.64,
-  "end": 14.83
+  "word": "and",
+  "start": 4.74,
+  "end": 4.94
  },
  {
-  "word": "found",
-  "start": 14.83,
-  "end": 15.17
- },
- {
-  "word": "it",
-  "start": 15.17,
-  "end": 15.27
- },
- {
-  "word": "that",
-  "start": 15.27,
-  "end": 15.47
- },
- {
-  "word": "way",
-  "start": 15.47,
-  "end": 15.78
- },
- {
-  "word": "Too",
-  "start": 15.94,
-  "end": 16.12
- },
- {
-  "word": "late",
-  "start": 16.12,
-  "end": 16.31
- },
- {
-  "word": "for",
-  "start": 16.31,
-  "end": 16.45
- },
- {
-  "word": "that",
-  "start": 16.45,
-  "end": 17.06
- },
- {
-  "word": "By",
-  "start": 17.06,
-  "end": 17.22
+  "word": "shuffles",
+  "start": 4.94,
+  "end": 5.38
  },
  {
   "word": "the",
-  "start": 17.22,
-  "end": 17.31
+  "start": 5.38,
+  "end": 5.45
  },
  {
-  "word": "time",
-  "start": 17.31,
-  "end": 17.57
+  "word": "parts",
+  "start": 5.45,
+  "end": 5.89
  },
  {
-  "word": "the",
-  "start": 17.57,
-  "end": 17.65
+  "word": "like",
+  "start": 5.89,
+  "end": 6.08
  },
  {
-  "word": "crowd",
-  "start": 17.65,
-  "end": 17.98
+  "word": "a",
+  "start": 6.08,
+  "end": 6.13
  },
  {
-  "word": "reaches",
-  "start": 17.98,
-  "end": 18.34
- },
- {
-  "word": "his",
-  "start": 18.34,
-  "end": 18.51
- },
- {
-  "word": "door",
-  "start": 18.51,
-  "end": 19.01
- },
- {
-  "word": "the",
-  "start": 19.01,
-  "end": 19.08
- },
- {
-  "word": "king's",
-  "start": 19.08,
-  "end": 19.39
- },
- {
-  "word": "officials",
-  "start": 19.39,
-  "end": 19.85
- },
- {
-  "word": "are",
-  "start": 19.85,
-  "end": 20.01
- },
- {
-  "word": "already",
-  "start": 20.01,
-  "end": 20.48
- },
- {
-  "word": "pushing",
-  "start": 20.48,
-  "end": 20.83
- },
- {
-  "word": "through",
-  "start": 20.83,
-  "end": 21.21
- },
- {
-  "word": "begging",
-  "start": 21.21,
-  "end": 21.79
- },
- {
-  "word": "for",
-  "start": 21.79,
-  "end": 21.94
- },
- {
-  "word": "calm",
-  "start": 21.94,
-  "end": 22.32
- },
- {
-  "word": "They",
-  "start": 22.32,
-  "end": 22.61
- },
- {
-  "word": "shout",
-  "start": 22.61,
-  "end": 22.94
- },
- {
-  "word": "that",
-  "start": 22.94,
-  "end": 23.06
- },
- {
-  "word": "Rome",
-  "start": 23.06,
-  "end": 23.45
- },
- {
-  "word": "is",
-  "start": 23.45,
-  "end": 23.59
- },
- {
-  "word": "the",
-  "start": 23.59,
-  "end": 23.66
- },
- {
-  "word": "greatest",
-  "start": 23.66,
-  "end": 24.23
- },
- {
-  "word": "power",
-  "start": 24.23,
-  "end": 24.61
- },
- {
-  "word": "on",
-  "start": 24.61,
-  "end": 24.74
- },
- {
-  "word": "earth",
-  "start": 24.74,
-  "end": 25.29
- },
- {
-  "word": "They",
-  "start": 25.29,
-  "end": 25.4
- },
- {
-  "word": "remind",
-  "start": 25.4,
-  "end": 25.79
- },
- {
-  "word": "everyone",
-  "start": 25.79,
-  "end": 26.31
- },
- {
-  "word": "that",
-  "start": 26.31,
-  "end": 26.48
- },
- {
-  "word": "Egypt",
-  "start": 26.48,
-  "end": 26.83
- },
- {
-  "word": "is",
-  "start": 26.83,
-  "end": 27.02
- },
- {
-  "word": "desperate",
-  "start": 27.02,
-  "end": 27.57
- },
- {
-  "word": "for",
-  "start": 27.57,
-  "end": 27.7
- },
- {
-  "word": "Rome's",
-  "start": 27.7,
-  "end": 28.05
- },
- {
-  "word": "friendship",
-  "start": 28.05,
-  "end": 28.57
- },
- {
-  "word": "None",
-  "start": 28.78,
-  "end": 29.07
+  "word": "deck",
+  "start": 6.13,
+  "end": 6.38
  },
  {
   "word": "of",
-  "start": 29.07,
-  "end": 29.16
+  "start": 6.38,
+  "end": 6.47
  },
  {
-  "word": "it",
-  "start": 29.16,
-  "end": 29.25
+  "word": "cards",
+  "start": 6.47,
+  "end": 7.18
  },
  {
-  "word": "matters",
-  "start": 29.25,
-  "end": 29.86
+  "word": "Over",
+  "start": 7.18,
+  "end": 7.37
  },
  {
-  "word": "The",
-  "start": 29.86,
-  "end": 29.97
+  "word": "the",
+  "start": 7.37,
+  "end": 7.46
  },
  {
-  "word": "Roman",
-  "start": 29.97,
-  "end": 30.3
- },
- {
-  "word": "keeps",
-  "start": 30.3,
-  "end": 30.67
- },
- {
-  "word": "pleading",
-  "start": 30.67,
-  "end": 31.1
- },
- {
-  "word": "that",
-  "start": 31.1,
-  "end": 31.22
- },
- {
-  "word": "he",
-  "start": 31.22,
-  "end": 31.35
- },
- {
-  "word": "never",
-  "start": 31.35,
-  "end": 31.74
- },
- {
-  "word": "even",
-  "start": 31.74,
-  "end": 31.99
- },
- {
-  "word": "saw",
-  "start": 31.99,
-  "end": 32.38
- },
- {
-  "word": "it",
-  "start": 32.38,
-  "end": 32.65
- },
- {
-  "word": "The",
-  "start": 32.65,
-  "end": 32.76
- },
- {
-  "word": "historian",
-  "start": 32.76,
-  "end": 33.34
- },
- {
-  "word": "Diodorus",
-  "start": 33.34,
-  "end": 34.03
- },
- {
-  "word": "was",
-  "start": 34.03,
-  "end": 34.2
- },
- {
-  "word": "in",
-  "start": 34.2,
-  "end": 34.29
- },
- {
-  "word": "Egypt",
-  "start": 34.29,
-  "end": 34.67
- },
- {
-  "word": "that",
-  "start": 34.67,
-  "end": 34.85
- },
- {
-  "word": "year",
-  "start": 34.85,
-  "end": 35.27
- },
- {
-  "word": "He",
-  "start": 35.27,
-  "end": 35.43
- },
- {
-  "word": "writes",
-  "start": 35.43,
-  "end": 35.76
- },
- {
-  "word": "that",
-  "start": 35.76,
-  "end": 35.87
- },
- {
-  "word": "he",
-  "start": 35.87,
-  "end": 35.96
- },
- {
-  "word": "watched",
-  "start": 35.96,
-  "end": 36.34
- },
- {
-  "word": "it",
-  "start": 36.34,
-  "end": 36.41
- },
- {
-  "word": "with",
-  "start": 36.41,
-  "end": 36.57
- },
- {
-  "word": "his",
-  "start": 36.57,
-  "end": 36.76
- },
- {
-  "word": "own",
-  "start": 36.76,
-  "end": 37.07
- },
- {
-  "word": "eyes",
-  "start": 37.07,
-  "end": 37.59
- },
- {
-  "word": "It",
-  "start": 37.74,
-  "end": 37.84
- },
- {
-  "word": "was",
-  "start": 37.84,
-  "end": 37.99
- },
- {
-  "word": "an",
-  "start": 37.99,
-  "end": 38.07
- },
- {
-  "word": "accident",
-  "start": 38.07,
-  "end": 38.78
- },
- {
-  "word": "and",
-  "start": 38.78,
-  "end": 38.91
- },
- {
-  "word": "that",
-  "start": 38.91,
-  "end": 39.14
- },
- {
-  "word": "changed",
-  "start": 39.14,
-  "end": 39.63
- },
- {
-  "word": "nothing",
-  "start": 39.63,
-  "end": 40.35
- },
- {
-  "word": "In",
-  "start": 40.35,
-  "end": 40.48
- },
- {
-  "word": "Egypt",
-  "start": 40.48,
-  "end": 41.08
+  "word": "fence",
+  "start": 7.46,
+  "end": 8.08
  },
  {
   "word": "a",
-  "start": 41.08,
-  "end": 41.15
+  "start": 8.08,
+  "end": 8.17
  },
  {
-  "word": "cat",
-  "start": 41.15,
-  "end": 41.48
+  "word": "German",
+  "start": 8.17,
+  "end": 8.58
  },
  {
-  "word": "was",
-  "start": 41.48,
-  "end": 41.62
+  "word": "officer",
+  "start": 8.58,
+  "end": 9.08
  },
  {
-  "word": "sacred",
-  "start": 41.62,
-  "end": 42.16
+  "word": "polishes",
+  "start": 9.08,
+  "end": 9.67
+ },
+ {
+  "word": "his",
+  "start": 9.67,
+  "end": 9.82
+ },
+ {
+  "word": "one",
+  "start": 9.82,
+  "end": 10.16
+ },
+ {
+  "word": "perfect",
+  "start": 10.16,
+  "end": 10.59
+ },
+ {
+  "word": "Tiger",
+  "start": 10.59,
+  "end": 11.13
+ },
+ {
+  "word": "He",
+  "start": 11.13,
+  "end": 11.22
+ },
+ {
+  "word": "spends",
+  "start": 11.22,
+  "end": 11.58
+ },
+ {
+  "word": "months",
+  "start": 11.58,
+  "end": 12.02
+ },
+ {
+  "word": "on",
+  "start": 12.02,
+  "end": 12.15
+ },
+ {
+  "word": "that",
+  "start": 12.15,
+  "end": 12.34
+ },
+ {
+  "word": "single",
+  "start": 12.34,
+  "end": 12.68
+ },
+ {
+  "word": "tank",
+  "start": 12.68,
+  "end": 13.16
+ },
+ {
+  "word": "The",
+  "start": 13.24,
+  "end": 13.31
+ },
+ {
+  "word": "Soviet",
+  "start": 13.31,
+  "end": 13.84
+ },
+ {
+  "word": "spends",
+  "start": 13.84,
+  "end": 14.16
+ },
+ {
+  "word": "a",
+  "start": 14.16,
+  "end": 14.19
+ },
+ {
+  "word": "week",
+  "start": 14.19,
+  "end": 14.68
+ },
+ {
+  "word": "bolts",
+  "start": 14.68,
+  "end": 15.18
+ },
+ {
+  "word": "everything",
+  "start": 15.18,
+  "end": 15.64
+ },
+ {
+  "word": "back",
+  "start": 15.64,
+  "end": 15.87
+ },
+ {
+  "word": "together",
+  "start": 15.87,
+  "end": 16.45
  },
  {
   "word": "and",
-  "start": 42.16,
-  "end": 42.45
+  "start": 16.45,
+  "end": 16.6
  },
  {
-  "word": "some",
-  "start": 42.45,
-  "end": 42.75
+  "word": "all",
+  "start": 16.6,
+  "end": 16.79
  },
  {
-  "word": "laws",
-  "start": 42.75,
-  "end": 43.14
+  "word": "three",
+  "start": 16.79,
+  "end": 17.09
  },
  {
-  "word": "were",
-  "start": 43.14,
-  "end": 43.27
+  "word": "tanks",
+  "start": 17.09,
+  "end": 17.5
  },
  {
-  "word": "stronger",
-  "start": 43.27,
-  "end": 43.85
+  "word": "drive",
+  "start": 17.5,
+  "end": 17.82
  },
  {
-  "word": "than",
-  "start": 43.85,
-  "end": 44.02
+  "word": "away",
+  "start": 17.82,
+  "end": 18.33
  },
  {
-  "word": "an",
-  "start": 44.02,
-  "end": 44.11
+  "word": "Then",
+  "start": 18.33,
+  "end": 18.59
  },
  {
-  "word": "empire",
-  "start": 44.11,
-  "end": 44.88
+  "word": "in",
+  "start": 18.59,
+  "end": 18.68
+ },
+ {
+  "word": "nineteen",
+  "start": 18.68,
+  "end": 19.03
+ },
+ {
+  "word": "forty",
+  "start": 19.03,
+  "end": 19.34
+ },
+ {
+  "word": "two",
+  "start": 19.34,
+  "end": 19.71
+ },
+ {
+  "word": "the",
+  "start": 19.71,
+  "end": 19.92
+ },
+ {
+  "word": "Tiger",
+  "start": 19.92,
+  "end": 20.31
+ },
+ {
+  "word": "finally",
+  "start": 20.31,
+  "end": 20.86
+ },
+ {
+  "word": "rolls",
+  "start": 20.86,
+  "end": 21.27
+ },
+ {
+  "word": "out",
+  "start": 21.27,
+  "end": 21.51
+ },
+ {
+  "word": "Its",
+  "start": 21.59,
+  "end": 21.74
+ },
+ {
+  "word": "gun",
+  "start": 21.74,
+  "end": 22.07
+ },
+ {
+  "word": "can",
+  "start": 22.07,
+  "end": 22.2
+ },
+ {
+  "word": "hit",
+  "start": 22.2,
+  "end": 22.34
+ },
+ {
+  "word": "a",
+  "start": 22.34,
+  "end": 22.38
+ },
+ {
+  "word": "T-34",
+  "start": 22.38,
+  "end": 23.3
+ },
+ {
+  "word": "from",
+  "start": 23.3,
+  "end": 23.47
+ },
+ {
+  "word": "a",
+  "start": 23.47,
+  "end": 23.5
+ },
+ {
+  "word": "mile",
+  "start": 23.5,
+  "end": 23.86
+ },
+ {
+  "word": "away",
+  "start": 23.86,
+  "end": 24.43
+ },
+ {
+  "word": "and",
+  "start": 24.43,
+  "end": 24.56
+ },
+ {
+  "word": "their",
+  "start": 24.56,
+  "end": 24.68
+ },
+ {
+  "word": "shells",
+  "start": 24.68,
+  "end": 25.12
+ },
+ {
+  "word": "just",
+  "start": 25.12,
+  "end": 25.38
+ },
+ {
+  "word": "bounce",
+  "start": 25.38,
+  "end": 25.84
+ },
+ {
+  "word": "off",
+  "start": 25.84,
+  "end": 26.2
+ },
+ {
+  "word": "The",
+  "start": 26.2,
+  "end": 26.4
+ },
+ {
+  "word": "officer",
+  "start": 26.4,
+  "end": 26.82
+ },
+ {
+  "word": "paints",
+  "start": 26.82,
+  "end": 27.13
+ },
+ {
+  "word": "a",
+  "start": 27.13,
+  "end": 27.18
+ },
+ {
+  "word": "ring",
+  "start": 27.18,
+  "end": 27.59
+ },
+ {
+  "word": "on",
+  "start": 27.59,
+  "end": 27.75
+ },
+ {
+  "word": "the",
+  "start": 27.75,
+  "end": 27.81
+ },
+ {
+  "word": "barrel",
+  "start": 27.81,
+  "end": 28.17
+ },
+ {
+  "word": "for",
+  "start": 28.17,
+  "end": 28.39
+ },
+ {
+  "word": "every",
+  "start": 28.39,
+  "end": 28.65
+ },
+ {
+  "word": "kill",
+  "start": 28.65,
+  "end": 29.0
+ },
+ {
+  "word": "But",
+  "start": 29.08,
+  "end": 29.18
+ },
+ {
+  "word": "autumn",
+  "start": 29.18,
+  "end": 29.59
+ },
+ {
+  "word": "brings",
+  "start": 29.59,
+  "end": 29.86
+ },
+ {
+  "word": "rain",
+  "start": 29.86,
+  "end": 30.35
+ },
+ {
+  "word": "and",
+  "start": 30.35,
+  "end": 30.52
+ },
+ {
+  "word": "the",
+  "start": 30.52,
+  "end": 30.58
+ },
+ {
+  "word": "roads",
+  "start": 30.58,
+  "end": 30.97
+ },
+ {
+  "word": "turn",
+  "start": 30.97,
+  "end": 31.24
+ },
+ {
+  "word": "to",
+  "start": 31.24,
+  "end": 31.34
+ },
+ {
+  "word": "mud",
+  "start": 31.34,
+  "end": 31.85
+ },
+ {
+  "word": "Soviet",
+  "start": 31.85,
+  "end": 32.28
+ },
+ {
+  "word": "tanks",
+  "start": 32.28,
+  "end": 32.63
+ },
+ {
+  "word": "crawl",
+  "start": 32.63,
+  "end": 32.93
+ },
+ {
+  "word": "through",
+  "start": 32.93,
+  "end": 33.3
+ },
+ {
+  "word": "it",
+  "start": 33.3,
+  "end": 33.41
+ },
+ {
+  "word": "The",
+  "start": 33.52,
+  "end": 33.62
+ },
+ {
+  "word": "Tiger",
+  "start": 33.62,
+  "end": 34.02
+ },
+ {
+  "word": "sinks",
+  "start": 34.02,
+  "end": 34.43
+ },
+ {
+  "word": "to",
+  "start": 34.43,
+  "end": 34.6
+ },
+ {
+  "word": "its",
+  "start": 34.6,
+  "end": 34.71
+ },
+ {
+  "word": "belly",
+  "start": 34.71,
+  "end": 35.14
+ },
+ {
+  "word": "Then",
+  "start": 35.27,
+  "end": 35.52
+ },
+ {
+  "word": "winter",
+  "start": 35.52,
+  "end": 35.81
+ },
+ {
+  "word": "comes",
+  "start": 35.81,
+  "end": 36.33
+ },
+ {
+  "word": "Mud",
+  "start": 36.46,
+  "end": 36.7
+ },
+ {
+  "word": "freezes",
+  "start": 36.7,
+  "end": 37.21
+ },
+ {
+  "word": "between",
+  "start": 37.21,
+  "end": 37.52
+ },
+ {
+  "word": "its",
+  "start": 37.52,
+  "end": 37.65
+ },
+ {
+  "word": "wheels",
+  "start": 37.65,
+  "end": 38.01
+ },
+ {
+  "word": "overnight",
+  "start": 38.01,
+  "end": 38.64
+ },
+ {
+  "word": "and",
+  "start": 38.64,
+  "end": 38.82
+ },
+ {
+  "word": "one",
+  "start": 38.82,
+  "end": 38.96
+ },
+ {
+  "word": "morning",
+  "start": 38.96,
+  "end": 39.44
+ },
+ {
+  "word": "the",
+  "start": 39.44,
+  "end": 39.63
+ },
+ {
+  "word": "gearbox",
+  "start": 39.63,
+  "end": 40.16
+ },
+ {
+  "word": "cracks",
+  "start": 40.16,
+  "end": 40.68
+ },
+ {
+  "word": "Fixing",
+  "start": 40.68,
+  "end": 41.19
+ },
+ {
+  "word": "a",
+  "start": 41.19,
+  "end": 41.26
+ },
+ {
+  "word": "Tiger",
+  "start": 41.26,
+  "end": 41.96
+ },
+ {
+  "word": "is",
+  "start": 41.96,
+  "end": 42.07
+ },
+ {
+  "word": "like",
+  "start": 42.07,
+  "end": 42.23
+ },
+ {
+  "word": "fixing",
+  "start": 42.23,
+  "end": 42.64
+ },
+ {
+  "word": "a",
+  "start": 42.64,
+  "end": 42.69
+ },
+ {
+  "word": "pocket",
+  "start": 42.69,
+  "end": 43.08
+ },
+ {
+  "word": "watch",
+  "start": 43.08,
+  "end": 43.6
+ },
+ {
+  "word": "It",
+  "start": 43.72,
+  "end": 43.86
+ },
+ {
+  "word": "can",
+  "start": 43.86,
+  "end": 44.04
+ },
+ {
+  "word": "take",
+  "start": 44.04,
+  "end": 44.33
+ },
+ {
+  "word": "a",
+  "start": 44.33,
+  "end": 44.39
+ },
+ {
+  "word": "month",
+  "start": 44.39,
+  "end": 44.86
+ },
+ {
+  "word": "The",
+  "start": 44.99,
+  "end": 45.06
+ },
+ {
+  "word": "Soviet",
+  "start": 45.06,
+  "end": 45.58
+ },
+ {
+  "word": "just",
+  "start": 45.58,
+  "end": 45.84
+ },
+ {
+  "word": "drops",
+  "start": 45.84,
+  "end": 46.15
+ },
+ {
+  "word": "a",
+  "start": 46.15,
+  "end": 46.2
+ },
+ {
+  "word": "broken",
+  "start": 46.2,
+  "end": 46.64
+ },
+ {
+  "word": "engine",
+  "start": 46.64,
+  "end": 47.19
+ },
+ {
+  "word": "and",
+  "start": 47.19,
+  "end": 47.34
+ },
+ {
+  "word": "grabs",
+  "start": 47.34,
+  "end": 47.74
+ },
+ {
+  "word": "another",
+  "start": 47.74,
+  "end": 48.11
+ },
+ {
+  "word": "Germany",
+  "start": 48.23,
+  "end": 48.69
+ },
+ {
+  "word": "built",
+  "start": 48.69,
+  "end": 48.96
+ },
+ {
+  "word": "about",
+  "start": 48.96,
+  "end": 49.25
+ },
+ {
+  "word": "thirteen",
+  "start": 49.25,
+  "end": 49.72
+ },
+ {
+  "word": "hundred",
+  "start": 49.72,
+  "end": 50.05
+ },
+ {
+  "word": "Tigers",
+  "start": 50.05,
+  "end": 50.65
+ },
+ {
+  "word": "The",
+  "start": 50.75,
+  "end": 50.82
+ },
+ {
+  "word": "Soviets",
+  "start": 50.82,
+  "end": 51.42
+ },
+ {
+  "word": "built",
+  "start": 51.42,
+  "end": 51.7
+ },
+ {
+  "word": "over",
+  "start": 51.7,
+  "end": 51.89
+ },
+ {
+  "word": "fifty",
+  "start": 51.89,
+  "end": 52.28
+ },
+ {
+  "word": "thousand",
+  "start": 52.28,
+  "end": 52.8
+ },
+ {
+  "word": "T-34s",
+  "start": 52.8,
+  "end": 53.94
+ },
+ {
+  "word": "Every",
+  "start": 53.94,
+  "end": 54.17
+ },
+ {
+  "word": "one",
+  "start": 54.17,
+  "end": 54.44
+ },
+ {
+  "word": "was",
+  "start": 54.44,
+  "end": 54.58
+ },
+ {
+  "word": "the",
+  "start": 54.58,
+  "end": 54.66
+ },
+ {
+  "word": "same",
+  "start": 54.66,
+  "end": 55.08
+ },
+ {
+  "word": "underneath",
+  "start": 55.08,
+  "end": 55.82
+ },
+ {
+  "word": "so",
+  "start": 55.82,
+  "end": 55.97
+ },
+ {
+  "word": "the",
+  "start": 55.97,
+  "end": 56.04
+ },
+ {
+  "word": "whole",
+  "start": 56.04,
+  "end": 56.29
+ },
+ {
+  "word": "front",
+  "start": 56.29,
+  "end": 56.67
+ },
+ {
+  "word": "became",
+  "start": 56.67,
+  "end": 56.98
+ },
+ {
+  "word": "a",
+  "start": 56.98,
+  "end": 57.01
+ },
+ {
+  "word": "spare",
+  "start": 57.01,
+  "end": 57.4
+ },
+ {
+  "word": "parts",
+  "start": 57.4,
+  "end": 57.77
+ },
+ {
+  "word": "shop",
+  "start": 57.77,
+  "end": 58.33
+ },
+ {
+  "word": "A",
+  "start": 58.33,
+  "end": 58.36
+ },
+ {
+  "word": "wheel",
+  "start": 58.36,
+  "end": 58.71
+ },
+ {
+  "word": "from",
+  "start": 58.71,
+  "end": 58.95
+ },
+ {
+  "word": "this",
+  "start": 58.95,
+  "end": 59.16
+ },
+ {
+  "word": "one",
+  "start": 59.16,
+  "end": 59.51
+ },
+ {
+  "word": "a",
+  "start": 59.51,
+  "end": 59.6
+ },
+ {
+  "word": "gun",
+  "start": 59.6,
+  "end": 59.87
+ },
+ {
+  "word": "from",
+  "start": 59.87,
+  "end": 60.07
+ },
+ {
+  "word": "that",
+  "start": 60.07,
+  "end": 60.31
+ },
+ {
+  "word": "one",
+  "start": 60.31,
+  "end": 60.57
+ },
+ {
+  "word": "and",
+  "start": 60.57,
+  "end": 60.68
+ },
+ {
+  "word": "a",
+  "start": 60.68,
+  "end": 60.71
+ },
+ {
+  "word": "hammer",
+  "start": 60.71,
+  "end": 61.15
+ },
+ {
+  "word": "Perfect",
+  "start": 61.24,
+  "end": 61.61
+ },
+ {
+  "word": "tanks",
+  "start": 61.61,
+  "end": 61.92
+ },
+ {
+  "word": "win",
+  "start": 61.92,
+  "end": 62.14
+ },
+ {
+  "word": "battles",
+  "start": 62.14,
+  "end": 62.7
+ },
+ {
+  "word": "Tanks",
+  "start": 62.83,
+  "end": 63.16
+ },
+ {
+  "word": "you",
+  "start": 63.16,
+  "end": 63.26
+ },
+ {
+  "word": "can",
+  "start": 63.26,
+  "end": 63.42
+ },
+ {
+  "word": "fix",
+  "start": 63.42,
+  "end": 63.71
+ },
+ {
+  "word": "win",
+  "start": 63.71,
+  "end": 63.91
+ },
+ {
+  "word": "wars",
+  "start": 63.91,
+  "end": 64.48
  }
 ]
