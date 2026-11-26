@@ -13,7 +13,7 @@ Everything is generated in code — no stock footage, no AI video.
 | Music + SFX + mix | `python3 tools/mix.py` then ffmpeg `loudnorm=I=-14` | `audio/mix.wav` |
 | Serve the scene | `cd web && python3 -m http.server 8765` | |
 | Test stills | `node tools/stills.cjs <dir> 1.0,8.5,33 0.4` | PNGs |
-| Full render | `tools/render_all.sh 1 3 final` | `out/final.mp4` |
+| Full render | `tools/render_all.sh 1 3 final` | `out/final.mp4` (raw, then re-encoded to `out/dont-look-up.mp4`) |
 
 `lines.json` holds the script (speaker, text, caption, highlighted words, start time).
 `web/main.js` is the shot list (`SHOTS`), one function per shot; `web/lib/` has the

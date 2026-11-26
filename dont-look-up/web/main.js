@@ -310,8 +310,9 @@ const SHOTS = [
     lighting('dark', t);
     const path = new THREE.CatmullRomCurve3([V(0.4, 0, 1.2), V(1.3, 0, 0.6), V(2.6, 0, -0.4), V(4.0, 0, -1.2), V(5.6, 0, -1.25), V(6.6, 0, -1.25)]);
     const len = path.getLength();
-    const s = clamp(u / 5.8) * 0.97;
-    const sd = clamp(s + 1.05 / len);
+    const gap = 1.45 / len;
+    const s = clamp(u / 5.8) * (1 - gap);
+    const sd = clamp(s + gap);
     const dp = path.getPointAt(sd), dt = path.getTangentAt(sd);
     dev.root.position.copy(dp); dev.root.rotation.set(0, Math.atan2(dt.x, dt.z), 0);
     const ph = s * len * 7.5;
@@ -327,7 +328,7 @@ const SHOTS = [
     povR.position.set(-0.26, -0.32 - Math.max(0, -Math.sin(ph)) * 0.05, -0.38 - Math.max(0, -Math.sin(ph)) * 0.12); povR.rotation.set(-1.25, 0, -0.15);
     // beam passes over the shelves
     i1.root.position.set(1.8, 0, -3.6); i1.root.rotation.y = 1.2; i1.walk(0, 0);
-    i1.pointAt(V(mix(3.8, 7.4, ease((t - 46.2) / 1.6)), 1.6, mix(-0.4, -1.8, ease((t - 46.2) / 1.6))));
+    i1.pointAt(V(mix(3.8, 7.4, ease((t - 46.2) / 1.6)), 2.45, mix(-0.4, -1.8, ease((t - 46.2) / 1.6))));
     i2.root.position.set(-1.9, 0, -4.4); beamSweep(i2, V(-1, 0.3, -1), 1.5, 1, t);
   }],
   // S14 — RULE 4
@@ -342,8 +343,8 @@ const SHOTS = [
     // stairwell window: a flashlight behind it
     lib.stairWindow.material.color.setRGB(0.05 + 0.9 * clamp(Math.sin(t * 5) * 0.5 + 0.6), 0.05 + 0.85 * clamp(Math.sin(t * 5) * 0.5 + 0.6), 0.1 + 0.6 * clamp(Math.sin(t * 5) * 0.5 + 0.5));
     const go = easeIn((u - 1.65) / 1.3);
-    const pos = vmix(V(5.6, 0.55, -1.05), V(7.62, 0.56, -0.55), go);
-    const look = vmix(V(7.4, 0.6, -0.9), V(9.0, 0.56, -0.55), go);
+    const pos = vmix(V(5.35, 0.6, -1.2), V(7.62, 0.56, -0.55), go);
+    const look = vmix(V(7.4, 0.78, -1.0), V(9.0, 0.56, -0.55), go);
     setCam(pos, look, mix(70, 80, go), 0, 0.006 + go * 0.02, t);
     i1.root.position.set(3.0, 0, -1.25); i1.root.rotation.y = Math.PI / 2; i1.pointAt(V(5.0, 0.2, -1.25 + Math.sin(t * 2) * 0.6));
     povHands.visible = true;
