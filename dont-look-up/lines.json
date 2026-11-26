@@ -1,0 +1,201 @@
+[
+ {
+  "id": "L01",
+  "who": "DEV",
+  "voice": "am_puck",
+  "speed": 1.12,
+  "text": "Yo, did you finish the history reading, or",
+  "cap": "Yo, did you finish the history reading, or\u2014",
+  "hl": [
+   "history"
+  ],
+  "start": 0.35
+ },
+ {
+  "id": "L02",
+  "who": "DEV",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "text": "Get down! Under the table!",
+  "cap": "GET DOWN! Under the table!",
+  "hl": [
+   "table!"
+  ],
+  "start": 4.25
+ },
+ {
+  "id": "L03",
+  "who": "MAN",
+  "voice": "am_onyx",
+  "speed": 0.88,
+  "text": "Nobody move. Nobody talk.",
+  "cap": "Nobody move. Nobody talk.",
+  "hl": [
+   "move.",
+   "talk."
+  ],
+  "start": 7.4
+ },
+ {
+  "id": "L04",
+  "who": "DEV",
+  "voice": "am_puck",
+  "speed": 1.0,
+  "text": "Maya. | Those are Mister Hale's keys.",
+  "cap": "Maya\u2026|those are Mr. Hale's keys.",
+  "hl": [
+   "Mr.",
+   "Hale's"
+  ],
+  "start": 15.0
+ },
+ {
+  "id": "L05",
+  "who": "MAN",
+  "voice": "am_onyx",
+  "speed": 0.8,
+  "text": "Maya Torres.",
+  "cap": "Maya Torres.",
+  "hl": [
+   "Maya",
+   "Torres."
+  ],
+  "start": 18.5
+ },
+ {
+  "id": "L06",
+  "who": "DEV",
+  "voice": "am_puck",
+  "speed": 1.0,
+  "text": "Maya. | They said your name.",
+  "cap": "Maya\u2026|they said YOUR name.",
+  "hl": [
+   "YOUR"
+  ],
+  "start": 20.6
+ },
+ {
+  "id": "L07",
+  "who": "MAYA",
+  "voice": "af_heart",
+  "speed": 1.05,
+  "text": "How do they even know me?",
+  "cap": "How do they even know ME\u2026?",
+  "hl": [
+   "ME\u2026?"
+  ],
+  "start": 22.9
+ },
+ {
+  "id": "L08",
+  "who": "MAN",
+  "voice": "am_onyx",
+  "speed": 0.82,
+  "text": "Maya. Come out, Maya.",
+  "cap": "Maya. Come out, Maya.",
+  "hl": [
+   "Come",
+   "out,"
+  ],
+  "start": 28.8
+ },
+ {
+  "id": "L09",
+  "who": "JORDAN",
+  "voice": "af_nicole",
+  "speed": 1.05,
+  "text": "Don't. They called Sam an hour ago.",
+  "cap": "Don't. They called Sam an hour ago.",
+  "hl": [
+   "Sam"
+  ],
+  "start": 31.8
+ },
+ {
+  "id": "L10",
+  "who": "JORDAN",
+  "voice": "af_nicole",
+  "speed": 0.95,
+  "text": "Sam never came back.",
+  "cap": "Sam never came back.",
+  "hl": [
+   "never"
+  ],
+  "start": 34.8
+ },
+ {
+  "id": "L11",
+  "who": "MAYA",
+  "voice": "af_heart",
+  "speed": 1.05,
+  "text": "Dev. Back stairwell. Crawl.",
+  "cap": "Dev. Back stairwell. Crawl.",
+  "hl": [
+   "Back",
+   "stairwell."
+  ],
+  "start": 41.0
+ },
+ {
+  "id": "L12",
+  "who": "DEV",
+  "voice": "am_puck",
+  "speed": 1.0,
+  "text": "Whoever's texting you. | Knows everything.",
+  "cap": "Whoever's texting you\u2026|knows everything.",
+  "hl": [
+   "everything."
+  ],
+  "start": 43.7
+ },
+ {
+  "id": "L13",
+  "who": "MAN",
+  "voice": "am_onyx",
+  "speed": 0.85,
+  "text": "If you run. | We find the others.",
+  "cap": "If you run\u2026|we find the others.",
+  "hl": [
+   "the",
+   "others."
+  ],
+  "start": 46.4
+ },
+ {
+  "id": "L14",
+  "who": "DEV",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "text": "Go! I'll cover you!",
+  "cap": "GO! I'll cover you!",
+  "hl": [
+   "GO!"
+  ],
+  "start": 53.3
+ },
+ {
+  "id": "L15",
+  "who": "MAYA",
+  "voice": "af_heart",
+  "speed": 1.0,
+  "text": "Where does this even go?",
+  "cap": "Where does this even go\u2026?",
+  "hl": [
+   "go\u2026?"
+  ],
+  "start": 58.4
+ },
+ {
+  "id": "L16",
+  "who": "THING",
+  "voice": "am_onyx",
+  "speed": 0.7,
+  "text": "Found you.",
+  "cap": "Found you.",
+  "hl": [
+   "Found",
+   "you."
+  ],
+  "start": 67.3
+ }
+]

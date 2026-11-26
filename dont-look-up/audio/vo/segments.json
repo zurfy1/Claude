@@ -1,0 +1,182 @@
+{
+ "L01": {
+  "dur": 1.891,
+  "parts": [
+   [
+    0.0,
+    1.891,
+    "Yo, did you finish the history reading, or"
+   ]
+  ]
+ },
+ "L02": {
+  "dur": 1.139,
+  "parts": [
+   [
+    0.0,
+    1.139,
+    "Get down! Under the table!"
+   ]
+  ]
+ },
+ "L03": {
+  "dur": 2.276,
+  "parts": [
+   [
+    0.0,
+    2.276,
+    "Nobody move. Nobody talk."
+   ]
+  ]
+ },
+ "L04": {
+  "dur": 2.288,
+  "parts": [
+   [
+    0.0,
+    0.588,
+    "Maya."
+   ],
+   [
+    0.968,
+    2.288,
+    "Those are Mister Hale's keys."
+   ]
+  ]
+ },
+ "L05": {
+  "dur": 1.405,
+  "parts": [
+   [
+    0.0,
+    1.405,
+    "Maya Torres."
+   ]
+  ]
+ },
+ "L06": {
+  "dur": 1.86,
+  "parts": [
+   [
+    0.0,
+    0.588,
+    "Maya."
+   ],
+   [
+    0.968,
+    1.86,
+    "They said your name."
+   ]
+  ]
+ },
+ "L07": {
+  "dur": 1.159,
+  "parts": [
+   [
+    0.0,
+    1.159,
+    "How do they even know me?"
+   ]
+  ]
+ },
+ "L08": {
+  "dur": 1.739,
+  "parts": [
+   [
+    0.0,
+    1.739,
+    "Maya. Come out, Maya."
+   ]
+  ]
+ },
+ "L09": {
+  "dur": 2.425,
+  "parts": [
+   [
+    0.0,
+    2.425,
+    "Don't. They called Sam an hour ago."
+   ]
+  ]
+ },
+ "L10": {
+  "dur": 1.728,
+  "parts": [
+   [
+    0.0,
+    1.728,
+    "Sam never came back."
+   ]
+  ]
+ },
+ "L11": {
+  "dur": 1.608,
+  "parts": [
+   [
+    0.0,
+    1.608,
+    "Dev. Back stairwell. Crawl."
+   ]
+  ]
+ },
+ "L12": {
+  "dur": 2.342,
+  "parts": [
+   [
+    0.0,
+    1.089,
+    "Whoever's texting you."
+   ],
+   [
+    1.469,
+    2.342,
+    "Knows everything."
+   ]
+  ]
+ },
+ "L13": {
+  "dur": 2.745,
+  "parts": [
+   [
+    0.0,
+    0.997,
+    "If you run."
+   ],
+   [
+    1.377,
+    2.745,
+    "We find the others."
+   ]
+  ]
+ },
+ "L14": {
+  "dur": 0.943,
+  "parts": [
+   [
+    0.0,
+    0.943,
+    "Go! I'll cover you!"
+   ]
+  ]
+ },
+ "L15": {
+  "dur": 1.24,
+  "parts": [
+   [
+    0.0,
+    1.24,
+    "Where does this even go?"
+   ]
+  ]
+ },
+ "L16": {
+  "dur": 1.017,
+  "parts": [
+   [
+    0.0,
+    1.017,
+    "Found you."
+   ]
+  ]
+ }
+}
