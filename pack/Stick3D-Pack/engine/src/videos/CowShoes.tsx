@@ -155,7 +155,7 @@ const S4 = ({ t, f }: Ctx) => {
     {Array.from({ length: 6 }, (_, i) => <Box key={i} p={[-6 + i * 2.6, 0.1, -1.6 - rnd(i) * 0.6]} s={[0.4, 0.2, 0.3]} rot={[0, i, 0]} color="#8a8478" line={2} />)}
     {HOOVES.map((hx, i) => <Print key={i} p={[hx, 0, i % 2 ? 0.25 : -0.15]} kind="hoof" rotY={-Math.PI / 2} s={1.1} k={clamp((x - hx - 0.3) * 4)} glow={i >= 8 ? cow : 0} />)}
     <Person p={[x, 0, 0]} h={3.2} look={shiner} f={f} pose={{ mood: "grin", walk: (x + 3.6) * WALK, speed: moving ? 0.6 : 0, lookX: 0.5 }} />
-    {cow > 0 ? <Arrow3D p={[1.4, 1.1 + 0.1 * Math.sin(t * 8), 0.2]} rot={[0, 0, Math.PI]} L={1.1 * cow + 0.01} color="#ffd24a" depth={0.2} /> : null}
+    {cow > 0 ? <group position={[1.4, 0.75 + 0.06 * Math.sin(t * 8), 0.1]} scale={0.45 * cow + 0.001}><Arrow3D p={[0, 0, 0]} rot={[0, 0, Math.PI]} L={1.1} color="#ffd24a" depth={0.2} /></group> : null}
   </>);
 };
 
@@ -212,7 +212,7 @@ const S6 = ({ t, f }: Ctx) => {
     <CanvasPlane p={[3.0, 4.2, -3.3]} s={[2.6, 1.0]} px={[300, 115]} frame="#5a3418" draw={(c, W, H) => { c.fillStyle = "#2f6a8f"; c.fillRect(0, 0, W, H); c.fillStyle = "#fff"; c.font = "900 46px Inter, Arial"; c.textAlign = "center"; c.textBaseline = "middle"; c.fillText("FLORIDA", W / 2, H / 2 + 2); }} />
     <Frame p={[0.4, 4.6, -3.3]} s={[1.4, 1.0]} art={2} /><Plant p={[-2.4, 0, -2.6]} s={1.1} /><Plant p={[4.8, 0, -2.6]} /><Lamp p={[-6.5, 0, -2.4]} h={2.4} />
     <Shaft p={[-4.2, 3.4, -1.6]} s={[2.4, 6.5]} rot={[0, 0, 0.45]} color="255,236,170" o={0.14} />
-    <Counter p={[0, 5.4, -1.2]} s={[3.2 * yr + 0.01, 1.5 * yr + 0.01]} text="1922" color="#b8221e" sub={fl > 0.5 ? "FLORIDA" : " "} />
+    <group position={[0, 5.4, -1.2]} scale={yr + 0.001}><Counter p={[0, 0, 0]} s={[3.2, 1.5]} text="1922" color="#b8221e" sub={fl > 0.5 ? "FLORIDA" : " "} /></group>
     <Desk p={[0.2, 0, 0.6]} w={4.2} top="#8a5a32" leg="#5a3418" />
     <Jug p={[-1.3, 1.6, 0.6]} s={0.7} />
     {/* the official holds up one cow shoe; its twin stays on the desk */}
