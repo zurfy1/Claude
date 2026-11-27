@@ -6,6 +6,7 @@ import { NvidiaV4 } from "./videos/NvidiaV4";
 import { CatEgypt } from "./videos/CatEgypt";
 import { TankParts } from "./videos/TankParts";
 import { SpartaMyth } from "./videos/SpartaMyth";
+import { CowShoes } from "./videos/CowShoes";
 // DURATION: set durationInFrames = ceil(voiceover_seconds * 30). Use --props or edit per video.
 export const Root: React.FC = () => <>
   <Composition id="Main" component={Main} width={720} height={1280} fps={30} durationInFrames={60} />
@@ -13,4 +14,5 @@ export const Root: React.FC = () => <>
   <Composition id="CatEgypt" component={CatEgypt} width={720} height={1280} fps={30} durationInFrames={1349} />
   <Composition id="TankParts" component={TankParts} width={720} height={1280} fps={30} durationInFrames={1937} />
   <Composition id="SpartaMyth" component={SpartaMyth} width={720} height={1280} fps={30} durationInFrames={1655} />
+  <Composition id="CowShoes" component={CowShoes} width={720} height={1280} fps={30} durationInFrames={980} />
 </>;
